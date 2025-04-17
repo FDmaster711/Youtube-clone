@@ -56,11 +56,25 @@
 }
 
 .profile-picture {
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
 }
 .video-row {
     margin-bottom: 4px;
+    position: relative;
+}
+
+.video-time {
+    position: absolute;
+    font-family: roboto,Arial;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right: 10px;
+    font-weight: 500;
+    font-size:12px ;
+    padding:4px;
+    border-radius: 2px;
 }
 
 
